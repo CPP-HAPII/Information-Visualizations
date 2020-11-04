@@ -1,1 +1,1 @@
-# Information-Visualizations
+# Personalized Information Visualizations
