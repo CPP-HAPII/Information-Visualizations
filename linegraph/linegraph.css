@@ -1,0 +1,107 @@
+body {
+  font: 18px Calibri, sans-serif;
+}
+
+
+path { 
+    stroke: #C7C7C7;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #C7C7C7;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+/*.gridy line, .gridx line{
+    stroke: #C7C7C7;
+}*/
+
+.grid .tick {
+    stroke: white;
+    stroke-opacity: 0;
+    shape-rendering: crispEdges;
+}
+.grid path {
+    stroke-width: 0;
+}
+
+/* CSS for filled area underneath line path */
+.area {
+    fill: #B5B5B5;
+    opacity: 0;
+    stroke-width: 0;
+}
+
+/* CSS for data points */
+.dot{
+    stroke-width: 2;
+}
+
+
+/* Position of dot graph */
+.over{
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  opacity: .15;
+}
+
+
+
+.question{
+  padding: 30px;
+  margin: 30px 0 0 0;
+  text-align: center;
+  font-size: 40px;
+  /*border: 1px solid gray;*/
+}
+
+.options{
+  width: 300px;
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  position: absolute;
+  top: 250px;
+  left: 1300px;
+}
+
+.optionsform{
+  margin: auto;
+  width: 80%;
+ /* border: 1px solid gray; */
+}
+
+input[type=text] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 200px;
+    padding: 15px;
+    margin: 8px 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+input[type=text]:focus {
+    border: 1px solid #555;
+    box-shadow: 0px 0px 3px #ccc;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #aaa;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 15px 40px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: none;
+}
