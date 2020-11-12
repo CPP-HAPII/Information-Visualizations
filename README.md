@@ -11,3 +11,6 @@ https://docs.aws.amazon.com/AWSMechTurk/latest/AWSMechanicalTurkRequester/Concep
 
 MTurk Tutorial: 
 https://docs.aws.amazon.com/AWSMechTurk/latest/RequesterUI/CreatingYourBatchofHITs.html 
+
+Images:
+https://blog.mturk.com/tutorial-how-to-label-thousands-of-images-using-the-crowd-bea164ccbefc
