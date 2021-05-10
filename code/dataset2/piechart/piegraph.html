@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+/*************************
+      Pie Chart
+*************************/ 
+
+</style>
+<body>
+<link rel="stylesheet" type="text/css" href="piechart.css">
+<script src="d3.v3.min.js"></script>
+<script src="piechart.js"></script>
+ <svg id="svgOne" visibility="hidden" width="1000" height="550" class="over">  
+
+    <g>
+        <svg id="svgTwo" style="clip-path:url(#graphy)" width="1200" height="600">
+        </svg>
+    </g>
+
+    </svg>
+    <script type="text/javascript" >
+    drawXlines(); // Draw the dot grid overlap
+    </script>
+
+<form class="question">
+What is the second largest demographic?<br>
+  <input type="text" name="answer"><br>
+  <input type="submit" value="Submit">
+  <br>
+  <input type="submit" value="Next Question">
+</form> 
+
+<div class="options">
+<form class="optionsform">
+    <b>Pie Chart Overlays</b>
+        <br>
+    <input class="option" name='grid' value='horizontal' type='checkbox' id="grid" unchecked >10 Equal Slices</input><br>
+    <input class="option" name='grid' value='horizontal' type='checkbox' id="showdots" unchecked >Add Dot Grid</input><br>
+ 
+    <input class="option" name='data' value='data' type='checkbox' id="showdata" checked >Show Data Point</input>
+</form>
+</div>
+

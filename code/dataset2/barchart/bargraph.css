@@ -1,0 +1,101 @@
+body {
+  font: 18px Calibri, sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  /*fill: black;*/
+}
+
+.bar:hover {
+  fill: olive;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.grid .tick {
+    stroke: white;
+    opacity: .01;
+    z-index: 5;
+}
+
+.grid .text {
+      stroke-width: 0;
+}
+
+
+.line {
+  fill: red;
+  stroke: #444;
+  stroke-width: 1.5px;
+}
+
+/* Position of dot graph */
+.over{
+  position: absolute;
+  left: 20px;
+  top: 60px;
+  opacity: .25;
+}
+
+
+.question{
+  padding: 30px;
+  margin: 30px 0 0 0;
+  text-align: center;
+  font-size: 40px;
+  /*border: 1px solid gray;*/
+}
+
+.options{
+  width: 300px;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  position: absolute;
+  top: 800px;
+  left: 1300px;
+}
+
+.optionsform{
+  margin: auto;
+  width: 80%;
+ /* border: 1px solid gray; */
+}
+
+input[type=text] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 200px;
+    padding: 15px;
+    margin: 8px 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+input[type=text]:focus {
+    border: 1px solid #555;
+    box-shadow: 0px 0px 3px #ccc;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #696969;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 15px 40px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: none;
+}

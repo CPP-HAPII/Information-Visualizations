@@ -1,0 +1,82 @@
+body {
+  font: 18px Calibri, sans-serif;
+}
+
+.options{
+  margin: 30px auto;
+}
+
+.textlabel{
+  font-weight: bold;
+  font: 20px Calibri, sans-serif;
+}
+
+.arc2 path{
+    stroke: black;
+    stroke-width: 2;
+    fill: none;
+}  
+
+.over{
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  opacity: .25;
+}
+
+.legend{
+  font-size: 20px;
+}
+
+.question{
+  padding: 30px;
+  margin: 30px 0 0 0;
+  text-align: center;
+  font-size: 40px;
+  /*border: 1px solid gray;*/
+}
+
+.options{
+  width: 300px;
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  position: absolute;
+  top: 150px;
+  left: 1200px;
+}
+
+.optionsform{
+  margin: auto;
+  width: 80%;
+ /* border: 1px solid gray; */
+}
+
+input[type=text] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 200px;
+    padding: 15px;
+    margin: 8px 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+input[type=text]:focus {
+    border: 1px solid #555;
+    box-shadow: 0px 0px 3px #ccc;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #aaa;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 15px 40px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: none;
+}
